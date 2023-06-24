@@ -1,0 +1,39 @@
+
+.styled-btn{
+  background-color: rgb(27, 5, 54);
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  transition: var(--transition);
+  
+}
+
+.styled-btn:hover{
+  background: var(--color-secondary);
+  color: var(--color-gray-600);
+}
+
+.styled-btn.lg {
+  padding: 1.2rem 3rem;
+  border-radius: 2 rem;
+  font-size: 1.1rem;
+}
+
+.main_header-left{
+  font-style: oblique;
+  text-overflow: ellipsis;
+}
+
+.styled-btn.sm{
+  padding: 0.4rem 1.2rem;
+  font-size: 0.9rem;
+}
+
+.styled-btn.sm:hover{
+  background: var(--color-gray-100);
+}
+

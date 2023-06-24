@@ -1,0 +1,28 @@
+.gallery-img{
+  margin-top: 9rem;
+  height: 900;
+  width: 900;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 5rem;
+ 
+ 
+}
+
+.gallery-head{
+    margin-top: 2rem;
+}
+
+.gallery_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.gallery_container article {
+    border: 1rem solid transparent;
+    transition: var(--transition);
+}
+
+.gallery_container article:hover {
+    border-color: var(--color-gray-500);
+}
